@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(245, 234, 255);
+}
+
+h1{ 
+    background-color: #f0c5fa;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(92, 20, 112)
+}
+
+
+#caixa-magica{ 
+    width: 350px;
+    height: 350px;
+    background-color: rgb(237, 200, 255);
+    margin:auto;
+    align-content: center;
+    border-radius: 13px;
+
+}
+
+p{
+    text-align: center;
+    color: rgb(91, 21, 116);
+}
+
+button{ 
+  background-color: #f4b4ff;
+  color: rgb(127, 4, 149);             
+  padding: 12px 24px;      
+  border: none;
+  border-radius: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
