@@ -2,12 +2,12 @@ const titulo = document.querySelector('#titulo');
 const botao = document.querySelector('#btn-mudar');
 const caixa = document.querySelector('#caixa-magica');
 const texto = document.querySelector('#caixa-magica p');
-let tamanhoAtual = 300; // botão
+let tamanhoAtual = 300; 
 botao.addEventListener('click', () => {
   titulo.innerText = "DOM Manipulado com sucesso";
   titulo.style.color = "purple";
   document.body.style.backgroundColor = "#f0f0f0";
-}); // teclado
+}); 
 window.addEventListener('keydown', (event) => {
   console.log("Você apertou a tecla " + event.key);
   const tecla = event.key.toLowerCase();
